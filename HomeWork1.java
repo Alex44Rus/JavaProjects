@@ -15,7 +15,7 @@ public class HomeWork1 {
             n--;
         }
         System.out.printf("Треугольное число =  %d , Факториал = %d ",  resSum, resMult);
-
+        tScan.close();
 
 
 
