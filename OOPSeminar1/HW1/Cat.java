@@ -1,6 +1,6 @@
 package OOPSeminar1.HW1;
 
-public class Cat {
+public class Cat implements I_Animal {
 
 private String name;
 private int age;

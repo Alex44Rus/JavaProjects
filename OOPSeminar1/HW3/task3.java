@@ -26,6 +26,7 @@ public class task3 {
         myLib.removeBook(b2);
         myLib.displayAvailableBooks();
         myLib.searchByAuthor("пушкин");
-        
+        myLib.displayAddress();
+
     }
 }

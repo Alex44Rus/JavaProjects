@@ -1,6 +1,6 @@
 package OOPSeminar1.HW3;
 
-public class Book {
+public class Book implements I_Publications{
 
     private String title;
     private String author;

@@ -2,15 +2,17 @@ package OOPSeminar1.HW3;
 
 import java.util.ArrayList;
 
-public class Library {
+public class Library implements I_Storage, I_Building{
     private ArrayList<Book> catalog = new ArrayList<>();
 
     public void addBook(Book book) {
         catalog.add(book);
     }
 
+    @Override
     public void removeBook(Book book) {
         catalog.remove(book);
+
     }
 
     public void displayAvailableBooks() {
@@ -22,6 +24,8 @@ public class Library {
         }
         System.out.println();
     }
+
+
     public void searchByAuthor (String bookAuthor){
         int i = 0;
 
@@ -39,4 +43,8 @@ public class Library {
     }
 
 
+    @Override
+    public void displayAddress() {
+        System.out.println("Какой-то адрес библиотеки!!!");
+    }
 }

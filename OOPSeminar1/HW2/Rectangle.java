@@ -1,6 +1,6 @@
 package OOPSeminar1.HW2;
 
-public class Rectangle {
+public class Rectangle implements I_Shape{
     private double width;
     private double height;
 
