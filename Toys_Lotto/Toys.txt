@@ -1,0 +1,6 @@
+
+Toy [id=2, name=Игрушка3, weight=50.0]
+Toy [id=0, name=Игрушка1, weight=25.0]
+Toy [id=1, name=Игрушка2, weight=33.0]
+Toy [id=3, name=MB GLE 5.5 AMG, weight=1.0]
+Toy [id=3, name=Iphone14ProMax, weight=10.0]
